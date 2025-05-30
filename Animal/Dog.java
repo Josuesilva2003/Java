@@ -1,13 +1,12 @@
 package Animal;
 
-public class Dog {
-    public static void main(String[] args) {
-    System.out.println("¡Guau!");
-    Makesound("Guau");
+
+   public class Dog implements Animal {
+    public void MakeSound() {
+        System.out.println("¡Guau!");
     }
 
-    private static void Makesound(String string) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'Makesound'");
-    }
+
+
 }
+
