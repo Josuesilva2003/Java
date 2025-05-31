@@ -82,12 +82,46 @@ System.out.println("the number is menor que");
   System.out.println("number is invalide");
 }
 
-int s = 5; 
+int s = 5;
 
 if( s % 2==0 ){ 
   System.out.println(s + " is even");
 }else {
   System.out.println(s + " is odd");
+}
+
+int day = 4;
+ 
+switch (day) {
+  case 1:
+    System.out.println("it's monday");
+    break;
+  case 2: 
+System.out.println("it's Thuesday");
+    break;
+    case 3: 
+    System.out.println("Wednesday");
+ case 4: 
+System.out.println("it's Thuesday");
+    break;
+     case 5: 
+System.out.println("it's Friday");
+    break;
+     case 6: 
+System.out.println("it's Saturday");
+    break;
+ case 7: 
+System.out.println("it's Sunday");
+    break;
+    default: 
+    System.out.println("Use 7 numbers of the the week");
+
+
+ int i = 0;
+ while (i < 5 ){
+ System.out.println(i);
+      i++;
+    }
 }
 
 
