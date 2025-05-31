@@ -117,10 +117,11 @@ System.out.println("it's Sunday");
     System.out.println("Use 7 numbers of the the week");
 
 
- int i = 0;
- while (i < 5 ){
+ int i = 1;
+ while (i > 5 ){
+  i++;
  System.out.println(i);
-      i++;
+    
     }
 }
 
